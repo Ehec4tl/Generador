@@ -1,0 +1,30 @@
+============================================================
+📊 RESUMEN DE SIMULACIÓN
+============================================================
+
+📌 DATOS BÁSICOS:
+  • Personajes iniciales: 80
+  • Personajes vivos: 77
+  • Personajes muertos: 3
+  • Supervivencia: 96.2%
+  • Eventos totales: 392
+
+⚔️ ATRIBUTOS (promedios finales):
+  • F: 55.4
+  • RM: 51.9
+  • RF: 62.0
+  • A: 45.6
+  • I: 45.7
+  • M: 39.6
+  • E: 50.2
+  • C: 48.5
+
+🏷️ TIPOS DE PERSONAJE:
+  • Normal: 70 (90.9%)
+  • Héroe: 5 (6.5%)
+  • Héroe Mayor: 1 (1.3%)
+  • Héroe Legendario: 1 (1.3%)
+
+✨ CARACTERÍSTICAS:
+  • Bendiciones: 31
+  • Maldiciones: 31

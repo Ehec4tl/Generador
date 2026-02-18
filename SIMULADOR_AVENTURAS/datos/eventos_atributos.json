@@ -1,0 +1,626 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "tipo": "atributo",
+    "descripcion": "56 eventos de atributos con orden (permutaciones)",
+    "total_eventos": 56
+  },
+  "eventos": [
+    {
+      "id": "A01",
+      "nombre": "Evento de Fuerza y Resistencia Mágica",
+      "descripcion": "Un desafío que pone a prueba tu fuerza y resistencia mágica",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "RM"
+    },
+    {
+      "id": "A02",
+      "nombre": "Evento de Fuerza y Resistencia Física",
+      "descripcion": "Un desafío que pone a prueba tu fuerza y resistencia física",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "RF"
+    },
+    {
+      "id": "A03",
+      "nombre": "Evento de Fuerza y Agilidad",
+      "descripcion": "Un desafío que pone a prueba tu fuerza y agilidad",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "A"
+    },
+    {
+      "id": "A04",
+      "nombre": "Evento de Fuerza y Inteligencia",
+      "descripcion": "Un desafío que pone a prueba tu fuerza e inteligencia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "I"
+    },
+    {
+      "id": "A05",
+      "nombre": "Evento de Fuerza y Magia",
+      "descripcion": "Un desafío que pone a prueba tu fuerza y magia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "M"
+    },
+    {
+      "id": "A06",
+      "nombre": "Evento de Fuerza y Espíritu",
+      "descripcion": "Un desafío que pone a prueba tu fuerza y espíritu",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "E"
+    },
+    {
+      "id": "A07",
+      "nombre": "Evento de Fuerza y Carisma",
+      "descripcion": "Un desafío que pone a prueba tu fuerza y carisma",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "C"
+    },
+    {
+      "id": "A08",
+      "nombre": "Evento de Resistencia Mágica y Fuerza",
+      "descripcion": "Un desafío que pone a prueba tu resistencia mágica y fuerza",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RM",
+      "atributo_secundario": "F"
+    },
+    {
+      "id": "A09",
+      "nombre": "Evento de Resistencia Mágica y Resistencia Física",
+      "descripcion": "Un desafío que pone a prueba tu resistencia mágica y física",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RM",
+      "atributo_secundario": "RF"
+    },
+    {
+      "id": "A10",
+      "nombre": "Evento de Resistencia Mágica y Agilidad",
+      "descripcion": "Un desafío que pone a prueba tu resistencia mágica y agilidad",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RM",
+      "atributo_secundario": "A"
+    },
+    {
+      "id": "A11",
+      "nombre": "Evento de Resistencia Mágica y Inteligencia",
+      "descripcion": "Un desafío que pone a prueba tu resistencia mágica e inteligencia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RM",
+      "atributo_secundario": "I"
+    },
+    {
+      "id": "A12",
+      "nombre": "Evento de Resistencia Mágica y Magia",
+      "descripcion": "Un desafío que pone a prueba tu resistencia mágica y magia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RM",
+      "atributo_secundario": "M"
+    },
+    {
+      "id": "A13",
+      "nombre": "Evento de Resistencia Mágica y Espíritu",
+      "descripcion": "Un desafío que pone a prueba tu resistencia mágica y espíritu",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RM",
+      "atributo_secundario": "E"
+    },
+    {
+      "id": "A14",
+      "nombre": "Evento de Resistencia Mágica y Carisma",
+      "descripcion": "Un desafío que pone a prueba tu resistencia mágica y carisma",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RM",
+      "atributo_secundario": "C"
+    },
+    {
+      "id": "A15",
+      "nombre": "Evento de Resistencia Física y Fuerza",
+      "descripcion": "Un desafío que pone a prueba tu resistencia física y fuerza",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RF",
+      "atributo_secundario": "F"
+    },
+    {
+      "id": "A16",
+      "nombre": "Evento de Resistencia Física y Resistencia Mágica",
+      "descripcion": "Un desafío que pone a prueba tu resistencia física y mágica",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RF",
+      "atributo_secundario": "RM"
+    },
+    {
+      "id": "A17",
+      "nombre": "Evento de Resistencia Física y Agilidad",
+      "descripcion": "Un desafío que pone a prueba tu resistencia física y agilidad",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RF",
+      "atributo_secundario": "A"
+    },
+    {
+      "id": "A18",
+      "nombre": "Evento de Resistencia Física y Inteligencia",
+      "descripcion": "Un desafío que pone a prueba tu resistencia física e inteligencia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RF",
+      "atributo_secundario": "I"
+    },
+    {
+      "id": "A19",
+      "nombre": "Evento de Resistencia Física y Magia",
+      "descripcion": "Un desafío que pone a prueba tu resistencia física y magia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RF",
+      "atributo_secundario": "M"
+    },
+    {
+      "id": "A20",
+      "nombre": "Evento de Resistencia Física y Espíritu",
+      "descripcion": "Un desafío que pone a prueba tu resistencia física y espíritu",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RF",
+      "atributo_secundario": "E"
+    },
+    {
+      "id": "A21",
+      "nombre": "Evento de Resistencia Física y Carisma",
+      "descripcion": "Un desafío que pone a prueba tu resistencia física y carisma",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "RF",
+      "atributo_secundario": "C"
+    },
+    {
+      "id": "A22",
+      "nombre": "Evento de Agilidad y Fuerza",
+      "descripcion": "Un desafío que pone a prueba tu agilidad y fuerza",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "A",
+      "atributo_secundario": "F"
+    },
+    {
+      "id": "A23",
+      "nombre": "Evento de Agilidad y Resistencia Mágica",
+      "descripcion": "Un desafío que pone a prueba tu agilidad y resistencia mágica",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "A",
+      "atributo_secundario": "RM"
+    },
+    {
+      "id": "A24",
+      "nombre": "Evento de Agilidad y Resistencia Física",
+      "descripcion": "Un desafío que pone a prueba tu agilidad y resistencia física",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "A",
+      "atributo_secundario": "RF"
+    },
+    {
+      "id": "A25",
+      "nombre": "Evento de Agilidad y Inteligencia",
+      "descripcion": "Un desafío que pone a prueba tu agilidad e inteligencia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "A",
+      "atributo_secundario": "I"
+    },
+    {
+      "id": "A26",
+      "nombre": "Evento de Agilidad y Magia",
+      "descripcion": "Un desafío que pone a prueba tu agilidad y magia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "A",
+      "atributo_secundario": "M"
+    },
+    {
+      "id": "A27",
+      "nombre": "Evento de Agilidad y Espíritu",
+      "descripcion": "Un desafío que pone a prueba tu agilidad y espíritu",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "A",
+      "atributo_secundario": "E"
+    },
+    {
+      "id": "A28",
+      "nombre": "Evento de Agilidad y Carisma",
+      "descripcion": "Un desafío que pone a prueba tu agilidad y carisma",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "A",
+      "atributo_secundario": "C"
+    },
+    {
+      "id": "A29",
+      "nombre": "Evento de Inteligencia y Fuerza",
+      "descripcion": "Un desafío que pone a prueba tu inteligencia y fuerza",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "I",
+      "atributo_secundario": "F"
+    },
+    {
+      "id": "A30",
+      "nombre": "Evento de Inteligencia y Resistencia Mágica",
+      "descripcion": "Un desafío que pone a prueba tu inteligencia y resistencia mágica",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "I",
+      "atributo_secundario": "RM"
+    },
+    {
+      "id": "A31",
+      "nombre": "Evento de Inteligencia y Resistencia Física",
+      "descripcion": "Un desafío que pone a prueba tu inteligencia y resistencia física",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "I",
+      "atributo_secundario": "RF"
+    },
+    {
+      "id": "A32",
+      "nombre": "Evento de Inteligencia y Agilidad",
+      "descripcion": "Un desafío que pone a prueba tu inteligencia y agilidad",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "I",
+      "atributo_secundario": "A"
+    },
+    {
+      "id": "A33",
+      "nombre": "Evento de Inteligencia y Magia",
+      "descripcion": "Un desafío que pone a prueba tu inteligencia y magia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "I",
+      "atributo_secundario": "M"
+    },
+    {
+      "id": "A34",
+      "nombre": "Evento de Inteligencia y Espíritu",
+      "descripcion": "Un desafío que pone a prueba tu inteligencia y espíritu",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "I",
+      "atributo_secundario": "E"
+    },
+    {
+      "id": "A35",
+      "nombre": "Evento de Inteligencia y Carisma",
+      "descripcion": "Un desafío que pone a prueba tu inteligencia y carisma",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "I",
+      "atributo_secundario": "C"
+    },
+    {
+      "id": "A36",
+      "nombre": "Evento de Magia y Fuerza",
+      "descripcion": "Un desafío que pone a prueba tu magia y fuerza",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "M",
+      "atributo_secundario": "F"
+    },
+    {
+      "id": "A37",
+      "nombre": "Evento de Magia y Resistencia Mágica",
+      "descripcion": "Un desafío que pone a prueba tu magia y resistencia mágica",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "M",
+      "atributo_secundario": "RM"
+    },
+    {
+      "id": "A38",
+      "nombre": "Evento de Magia y Resistencia Física",
+      "descripcion": "Un desafío que pone a prueba tu magia y resistencia física",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "M",
+      "atributo_secundario": "RF"
+    },
+    {
+      "id": "A39",
+      "nombre": "Evento de Magia y Agilidad",
+      "descripcion": "Un desafío que pone a prueba tu magia y agilidad",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "M",
+      "atributo_secundario": "A"
+    },
+    {
+      "id": "A40",
+      "nombre": "Evento de Magia y Inteligencia",
+      "descripcion": "Un desafío que pone a prueba tu magia e inteligencia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "M",
+      "atributo_secundario": "I"
+    },
+    {
+      "id": "A41",
+      "nombre": "Evento de Magia y Espíritu",
+      "descripcion": "Un desafío que pone a prueba tu magia y espíritu",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "M",
+      "atributo_secundario": "E"
+    },
+    {
+      "id": "A42",
+      "nombre": "Evento de Magia y Carisma",
+      "descripcion": "Un desafío que pone a prueba tu magia y carisma",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "M",
+      "atributo_secundario": "C"
+    },
+    {
+      "id": "A43",
+      "nombre": "Evento de Espíritu y Fuerza",
+      "descripcion": "Un desafío que pone a prueba tu espíritu y fuerza",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "E",
+      "atributo_secundario": "F"
+    },
+    {
+      "id": "A44",
+      "nombre": "Evento de Espíritu y Resistencia Mágica",
+      "descripcion": "Un desafío que pone a prueba tu espíritu y resistencia mágica",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "E",
+      "atributo_secundario": "RM"
+    },
+    {
+      "id": "A45",
+      "nombre": "Evento de Espíritu y Resistencia Física",
+      "descripcion": "Un desafío que pone a prueba tu espíritu y resistencia física",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "E",
+      "atributo_secundario": "RF"
+    },
+    {
+      "id": "A46",
+      "nombre": "Evento de Espíritu y Agilidad",
+      "descripcion": "Un desafío que pone a prueba tu espíritu y agilidad",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "E",
+      "atributo_secundario": "A"
+    },
+    {
+      "id": "A47",
+      "nombre": "Evento de Espíritu y Inteligencia",
+      "descripcion": "Un desafío que pone a prueba tu espíritu e inteligencia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "E",
+      "atributo_secundario": "I"
+    },
+    {
+      "id": "A48",
+      "nombre": "Evento de Espíritu y Magia",
+      "descripcion": "Un desafío que pone a prueba tu espíritu y magia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "E",
+      "atributo_secundario": "M"
+    },
+    {
+      "id": "A49",
+      "nombre": "Evento de Espíritu y Carisma",
+      "descripcion": "Un desafío que pone a prueba tu espíritu y carisma",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "E",
+      "atributo_secundario": "C"
+    },
+    {
+      "id": "A50",
+      "nombre": "Evento de Carisma y Fuerza",
+      "descripcion": "Un desafío que pone a prueba tu carisma y fuerza",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "C",
+      "atributo_secundario": "F"
+    },
+    {
+      "id": "A51",
+      "nombre": "Evento de Carisma y Resistencia Mágica",
+      "descripcion": "Un desafío que pone a prueba tu carisma y resistencia mágica",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "C",
+      "atributo_secundario": "RM"
+    },
+    {
+      "id": "A52",
+      "nombre": "Evento de Carisma y Resistencia Física",
+      "descripcion": "Un desafío que pone a prueba tu carisma y resistencia física",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "C",
+      "atributo_secundario": "RF"
+    },
+    {
+      "id": "A53",
+      "nombre": "Evento de Carisma y Agilidad",
+      "descripcion": "Un desafío que pone a prueba tu carisma y agilidad",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "C",
+      "atributo_secundario": "A"
+    },
+    {
+      "id": "A54",
+      "nombre": "Evento de Carisma y Inteligencia",
+      "descripcion": "Un desafío que pone a prueba tu carisma e inteligencia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "C",
+      "atributo_secundario": "I"
+    },
+    {
+      "id": "A55",
+      "nombre": "Evento de Carisma y Magia",
+      "descripcion": "Un desafío que pone a prueba tu carisma y magia",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "C",
+      "atributo_secundario": "M"
+    },
+    {
+      "id": "A56",
+      "nombre": "Evento de Carisma y Espíritu",
+      "descripcion": "Un desafío que pone a prueba tu carisma y espíritu",
+      "variantes": [
+        "Variante 1",
+        "Variante 2"
+      ],
+      "atributo_principal": "C",
+      "atributo_secundario": "E"
+    }
+  ]
+}

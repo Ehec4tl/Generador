@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "tipo": "equipo",
+    "descripcion": "Eventos de obtención y mejora de equipo",
+    "total_eventos": 4
+  },
+  "eventos": [
+    {
+      "id": "E1",
+      "nombre": "Hallazgo en la cueva",
+      "descripcion": "Encuentran un arma antigua en una cueva olvidada",
+      "variantes": [
+        "Arma ancestral: una espada que brilla con luz propia",
+        "Armadura de héroes caídos: placas metálicas con grabados"
+      ],
+      "atributo": "F",
+      "bonus_exito": 5,
+      "bonus_fracaso": 0,
+      "probabilidad_exito": 0.6
+    },
+    {
+      "id": "E2",
+      "nombre": "Trueque con nómadas",
+      "descripcion": "Intercambian bienes por equipo básico",
+      "variantes": [
+        "Comercio pacífico: los nómadas aceptan el trato",
+        "Intercambio forzado: obtienen lo que necesitan por la fuerza"
+      ],
+      "atributo": "C",
+      "bonus_exito": 3,
+      "bonus_fracaso": -1,
+      "probabilidad_exito": 0.7
+    },
+    {
+      "id": "E3",
+      "nombre": "Ritual de afinación",
+      "descripcion": "Un chamán mejora el vínculo con su equipo",
+      "variantes": [
+        "Canción de poder: los tambores marcan el ritmo",
+        "Tatuajes de guerra: marcas sagradas en la piel"
+      ],
+      "atributo": "E",
+      "bonus_exito": 2,
+      "bonus_fracaso": 0,
+      "probabilidad_exito": 0.8,
+      "aplica_a_todos": true
+    },
+    {
+      "id": "E4",
+      "nombre": "Forja improvisada",
+      "descripcion": "Usan recursos locales para reparar/mejorar equipo",
+      "variantes": [
+        "Fuego de dragón: una llama azul calienta la forja",
+        "Metal de meteorito: un fragmento caído del cielo"
+      ],
+      "atributo_principal": "F",
+      "atributo_secundario": "RF",
+      "bonus_exito": 5,
+      "penalizacion": -2,
+      "probabilidad_exito": 0.5
+    }
+  ]
+}

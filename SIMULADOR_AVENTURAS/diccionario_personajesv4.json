@@ -1,0 +1,144 @@
+{
+  "razas_principales": {
+    "1": "Humano",
+    "2": "Elfo",
+    "3": "Enano",
+    "4": "Gigante",
+    "5": "Orcoide",
+    "6": "Hombre Bestia",
+    "7": "Constructo",
+    "8": "Mediano"
+  },
+
+  "subrazas": {
+    "1": {
+      "1": {"nombre": "Nordico", "bonus": {"RF": 6, "RM": 6, "F": 3}},
+      "2": {"nombre": "Desertico", "bonus": {"RF": 6, "A": 4, "E": 5}},
+      "3": {"nombre": "Urbano", "bonus": {"F": -3, "M": 5, "C": 8, "I": 5}}
+    },
+    "2": {
+      "1": {"nombre": "Drow", "bonus": {"RM": 8, "M": 7}},
+      "2": {"nombre": "Alto Elfo", "bonus": {"I": 7, "C": 5, "E": 3}},
+      "3": {"nombre": "Silvano", "bonus": {"A": 7, "E": 5, "C": 3}}
+    },
+    "3": {
+      "1": {"nombre": "Petreo", "bonus": {"RF": 9, "F": 6}},
+      "2": {"nombre": "Férreo", "bonus": {"RF": 6, "I": 6, "F": 3}},
+      "3": {"nombre": "Duergar", "bonus": {"RF": 6, "M": 6, "E": 3}}
+    },
+    "4": {
+      "1": {"nombre": "Coloso", "bonus": {"E": 9, "RF": 6}},
+      "2": {"nombre": "Jotun", "bonus": {"E": 7, "RF": 8}},
+      "3": {"nombre": "Del Bosque", "bonus": {"RM": 6, "A": 5, "E": 4}}
+    },
+    "5": {
+      "1": {"nombre": "Goblin", "bonus": {"F": -25, "A": 26, "I": 9, "C": 5}},
+      "2": {"nombre": "Orco", "bonus": {"F": 9, "RF": 6}},
+      "3": {"nombre": "Alto orco", "bonus": {"F": 6, "RF": 3, "I": 3, "C": 3}}
+    },
+    "6": {
+      "1": {"nombre": "Saurio", "bonus": {"F": 6, "RF": 5, "A": 4}},
+      "2": {"nombre": "Canino", "bonus": {"F": 4, "I": 7, "E": 4}},
+      "3": {"nombre": "Félido", "bonus": {"A": 9, "C": 6}}
+    },
+    "7": {
+      "1": {"nombre": "Gólem de Roca", "bonus": {"F": 6, "RF": 5, "A": 4}},
+      "2": {"nombre": "Autómata", "bonus": {"F": 4, "I": 7, "E": 4}},
+      "3": {"nombre": "Centinela Arcano", "bonus": {"A": 9, "C": 6}}
+    },
+    "8": {
+      "1": {"nombre": "Pies Ligeros", "bonus": {"F": 6, "RF": 5, "A": 4}},
+      "2": {"nombre": "Fornido", "bonus": {"F": 4, "I": 7, "E": 4}},
+      "3": {"nombre": "Peloso", "bonus": {"A": 9, "C": 6}}
+    }
+  },
+
+  "myb": {
+    "1": {
+      "nombre": "Bendición de la Vida",
+      "variantes": {
+        "1": "Vida Revitalizante",
+        "2": "Vida Natural",
+        "3": "Vida Pura"
+      }
+    },
+    "2": {
+      "nombre": "Maldición de la No Muerte",
+      "variantes": {
+        "1": "Vampirismo",
+        "2": "Esqueleto",
+        "3": "Ghoul"
+      }
+    },
+    "3": {
+      "nombre": "Bendición de la Plenitud",
+      "variantes": {
+        "1": "Plenitud Estable",
+        "2": "Plenitud Compartida",
+        "3": "Plenitud Dominante"
+      }
+    },
+    "4": {
+      "nombre": "Maldición de los Devoradores",
+      "variantes": {
+        "1": "Devorador de Almas",
+        "2": "Devorador de Magia",
+        "3": "Devorador de Carne"
+      }
+    },
+    "5": {
+      "nombre": "Bendición de la Transformación",
+      "variantes": {
+        "1": "Camino del Dragon",
+        "2": "Camino del Fenix",
+        "3": "Camino del Kraken"
+      }
+    },
+    "6": {
+      "nombre": "Maldición de los Hibridos",
+      "variantes": {
+        "1": "Hibrido Dragon",
+        "2": "Hibrido Fenix",
+        "3": "Hibrido Kraken"
+      }
+    },
+    "7": {
+      "nombre": "Bendición Angelical",
+      "variantes": {
+        "1": "Hibrido Angelical",
+        "2": "Llama Divina",
+        "3": "Guardian Radiante"
+      }
+    },
+    "8": {
+      "nombre": "Maldición Demoníaca",
+      "variantes": {
+        "1": "Hibrido Demoniaco",
+        "2": "Llama Infernal",
+        "3": "Vivir es Dolor"
+      }
+    }
+  },
+
+  "atributos": [
+    "Fuerza",
+    "Resistencia mágica",
+    "Resistencia física",
+    "Agilidad",
+    "Inteligencia",
+    "Magia",
+    "Espíritu",
+    "Carisma"
+  ],
+
+  "valores_base": {
+    "Humano": {"F": 45, "RM": 45, "RF": 45, "A": 45, "I": 55, "M": 40, "E": 45, "C": 55},
+    "Elfo": {"F": 35, "RM": 45, "RF": 35, "A": 60, "I": 45, "M": 65, "E": 45, "C": 45},
+    "Enano": {"F": 55, "RM": 65, "RF": 60, "A": 35, "I": 40, "M": 20, "E": 60, "C": 40},
+    "Gigante": {"F": 90, "RM": 30, "RF": 75, "A": 30, "I": 30, "M": 25, "E": 55, "C": 40},
+    "Orcoide": {"F": 60, "RM": 65, "RF": 75, "A": 40, "I": 25, "M": 30, "E": 50, "C": 30},
+    "Hombre Bestia": {"F": 60, "RM": 65, "RF": 75, "A": 40, "I": 25, "M": 30, "E": 50, "C": 30},
+    "Constructo": {"F": 40, "RM": 50, "RF": 55, "A": 30, "I": 70, "M": 65, "E": 30, "C": 35},
+    "Mediano": {"F": 35, "RM": 45, "RF": 40, "A": 65, "I": 45, "M": 35, "E": 45, "C": 65}
+  }
+}

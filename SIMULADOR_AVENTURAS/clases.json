@@ -1,0 +1,289 @@
+{
+  "atributos": {
+    "F": "Fuerza",
+    "RF": "Resistencia física",
+    "RM": "Resistencia mágica",
+    "A": "Agilidad",
+    "I": "Inteligencia",
+    "M": "Magia",
+    "E": "Espíritu",
+    "C": "Carisma"
+  },
+
+  "perfiles_modificador": {
+    "simple": {
+      "descripcion": "Un atributo dominante",
+      "ajuste_probabilidad": {
+        "1": -2,
+        "2": -2,
+        "3": -1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 2,
+        "9": 2
+      }
+    },
+
+    "doble": {
+      "descripcion": "Dos atributos dominantes distintos",
+      "ajuste_probabilidad": {
+        "1": -4,
+        "2": -3,
+        "3": -2,
+        "4": -1,
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 4
+      }
+    },
+
+    "doble_pura": {
+      "descripcion": "Un atributo fuertemente dominante",
+      "ajuste_probabilidad": {
+        "1": -6,
+        "2": -5,
+        "3": -3,
+        "4": -1,
+        "5": 0,
+        "6": 2,
+        "7": 4,
+        "8": 5,
+        "9": 6
+      }
+    }
+  },
+
+  "clases_simples": {
+    "F": {
+      "nombre": "Guerrero",
+      "atributos": ["F"],
+      "perfil": "simple"
+    },
+    "RF": {
+      "nombre": "Defensor",
+      "atributos": ["RF"],
+      "perfil": "simple"
+    },
+    "RM": {
+      "nombre": "Custodio Arcano",
+      "atributos": ["RM"],
+      "perfil": "simple"
+    },
+    "A": {
+      "nombre": "Explorador",
+      "atributos": ["A"],
+      "perfil": "simple"
+    },
+    "I": {
+      "nombre": "Estratega",
+      "atributos": ["I"],
+      "perfil": "simple"
+    },
+    "M": {
+      "nombre": "Hechicero",
+      "atributos": ["M"],
+      "perfil": "simple"
+    },
+    "E": {
+      "nombre": "Monje",
+      "atributos": ["E"],
+      "perfil": "simple"
+    },
+    "C": {
+      "nombre": "Orador",
+      "atributos": ["C"],
+      "perfil": "simple"
+    }
+  },
+
+  "clases_dobles": {
+    "F_RF": {
+      "nombre": "Bárbaro",
+      "atributos": ["F", "RF"],
+      "perfil": "doble"
+    },
+    "F_RM": {
+      "nombre": "Paladín",
+      "atributos": ["F", "RM"],
+      "perfil": "doble"
+    },
+    "F_A": {
+      "nombre": "Escaramuzador",
+      "atributos": ["F", "A"],
+      "perfil": "doble"
+    },
+    "F_I": {
+      "nombre": "General",
+      "atributos": ["F", "I"],
+      "perfil": "doble"
+    },
+    "F_M": {
+      "nombre": "Guerrero Mágico",
+      "atributos": ["F", "M"],
+      "perfil": "doble"
+    },
+    "F_E": {
+      "nombre": "Mercenario",
+      "atributos": ["F", "E"],
+      "perfil": "doble"
+    },
+    "F_C": {
+      "nombre": "Guerrero Noble",
+      "atributos": ["F", "C"],
+      "perfil": "doble"
+    },
+
+    "RF_RM": {
+      "nombre": "Bastión",
+      "atributos": ["RF", "RM"],
+      "perfil": "doble"
+    },
+    "RF_A": {
+      "nombre": "Rompelineas",
+      "atributos": ["RF", "A"],
+      "perfil": "doble"
+    },
+    "RF_I": {
+      "nombre": "Manipulador",
+      "atributos": ["RF", "I"],
+      "perfil": "doble"
+    },
+    "RF_M": {
+      "nombre": "Guardia Arcano",
+      "atributos": ["RF", "M"],
+      "perfil": "doble"
+    },
+    "RF_E": {
+      "nombre": "Templario",
+      "atributos": ["RF", "E"],
+      "perfil": "doble"
+    },
+    "RF_C": {
+      "nombre": "Campeón",
+      "atributos": ["RF", "C"],
+      "perfil": "doble"
+    },
+
+    "RM_I": {
+      "nombre": "Erudito",
+      "atributos": ["RM", "I"],
+      "perfil": "doble"
+    },
+    "RM_M": {
+      "nombre": "Místico",
+      "atributos": ["RM", "M"],
+      "perfil": "doble"
+    },
+    "RM_E": {
+      "nombre": "Exorcista",
+      "atributos": ["RM", "E"],
+      "perfil": "doble"
+    },
+    "RM_C": {
+      "nombre": "Hierofante",
+      "atributos": ["RM", "C"],
+      "perfil": "doble"
+    },
+
+    "A_I": {
+      "nombre": "Táctico",
+      "atributos": ["A", "I"],
+      "perfil": "doble"
+    },
+    "A_M": {
+      "nombre": "Mago Ágil",
+      "atributos": ["A", "M"],
+      "perfil": "doble"
+    },
+    "A_E": {
+      "nombre": "Acechador Espiritual",
+      "atributos": ["A", "E"],
+      "perfil": "doble"
+    },
+    "A_C": {
+      "nombre": "Embajador",
+      "atributos": ["A", "C"],
+      "perfil": "doble"
+    },
+
+    "I_M": {
+      "nombre": "Archimago",
+      "atributos": ["I", "M"],
+      "perfil": "doble"
+    },
+    "I_E": {
+      "nombre": "Filósofo",
+      "atributos": ["I", "E"],
+      "perfil": "doble"
+    },
+    "I_C": {
+      "nombre": "Consejero",
+      "atributos": ["I", "C"],
+      "perfil": "doble"
+    },
+
+    "M_E": {
+      "nombre": "Espiritista",
+      "atributos": ["M", "E"],
+      "perfil": "doble"
+    },
+    "M_C": {
+      "nombre": "Hechicero Carismático",
+      "atributos": ["M", "C"],
+      "perfil": "doble"
+    },
+
+    "E_C": {
+      "nombre": "Profeta",
+      "atributos": ["E", "C"],
+      "perfil": "doble"
+    }
+  },
+
+  "clases_dobles_puras": {
+    "F_F": {
+      "nombre": "Guerrero de Vanguardia",
+      "atributos": ["F"],
+      "perfil": "doble_pura"
+    },
+    "RF_RF": {
+      "nombre": "Muralla Viviente",
+      "atributos": ["RF"],
+      "perfil": "doble_pura"
+    },
+    "RM_RM": {
+      "nombre": "Arconte",
+      "atributos": ["RM"],
+      "perfil": "doble_pura"
+    },
+    "A_A": {
+      "nombre": "Maestro del Movimiento",
+      "atributos": ["A"],
+      "perfil": "doble_pura"
+    },
+    "I_I": {
+      "nombre": "Genio",
+      "atributos": ["I"],
+      "perfil": "doble_pura"
+    },
+    "M_M": {
+      "nombre": "Archimago",
+      "atributos": ["M"],
+      "perfil": "doble_pura"
+    },
+    "E_E": {
+      "nombre": "Gran Maestro",
+      "atributos": ["E"],
+      "perfil": "doble_pura"
+    },
+    "C_C": {
+      "nombre": "Ídolo",
+      "atributos": ["C"],
+      "perfil": "doble_pura"
+    }
+  }
+}

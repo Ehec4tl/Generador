@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "tipo": "caracteristica",
+    "descripcion": "Eventos de contacto con fuerzas mayores (bendiciones y maldiciones)",
+    "total_eventos": 8
+  },
+  "eventos": [
+    {
+      "id": "C1",
+      "nombre": "El árbol sagrado",
+      "descripcion": "Un árbol milenario les concede una bendición",
+      "variantes": [
+        "Roble ancestral: sus hojas susurran secretos olvidados",
+        "Sauce llorón: sus ramas tocan el agua de la vida"
+      ],
+      "fuerza": "Bendición de la Vida",
+      "es_bendicion": true,
+      "efecto": "resistencia_enfermedades"
+    },
+    {
+      "id": "C2",
+      "nombre": "El festín del depredador",
+      "descripcion": "Participan en un ritual de caza extrema",
+      "variantes": [
+        "Corazón de león: comer la carne del rey de la selva",
+        "Sangre de lobo: beber para obtener su ferocidad"
+      ],
+      "fuerza": "Bendición de los Devoradores",
+      "es_bendicion": true,
+      "efecto": "instinto_caza"
+    },
+    {
+      "id": "C3",
+      "nombre": "La piel cambiante",
+      "descripcion": "Un chamán les otorga la capacidad de cambiar forma",
+      "variantes": [
+        "Piel de oso: la fuerza del oso fluye por sus venas",
+        "Plumas de águila: sueñan con volar"
+      ],
+      "fuerza": "Bendición de la Transformación",
+      "es_bendicion": true,
+      "efecto": "cambio_forma"
+    },
+    {
+      "id": "C4",
+      "nombre": "La luz en la tormenta",
+      "descripcion": "Seres de luz aparecen durante una tormenta",
+      "variantes": [
+        "El mensajero: un ser alado trae noticias",
+        "El guardián: una figura luminosa protege del rayo"
+      ],
+      "fuerza": "Bendición Angelical",
+      "es_bendicion": true,
+      "efecto": "proteccion_divina"
+    },
+    {
+      "id": "C5",
+      "nombre": "El susurro de los muertos",
+      "descripcion": "Perturban una tumba ancestral",
+      "variantes": [
+        "Tumba abierta: el aire se vuelve frío",
+        "Objeto robado: algo no debería haberse movido"
+      ],
+      "fuerza": "Maldición de la No Muerte",
+      "es_bendicion": false,
+      "efecto": "persecucion_espiritus"
+    },
+    {
+      "id": "C6",
+      "nombre": "El hambre insaciable",
+      "descripcion": "Maldición que causa un apetito imparable",
+      "variantes": [
+        "Comida podrida: algo se retuerce dentro",
+        "Agua contaminada: la sed nunca se calma"
+      ],
+      "fuerza": "Maldición de los Devoradores",
+      "es_bendicion": false,
+      "efecto": "debilidad_progresiva"
+    },
+    {
+      "id": "C7",
+      "nombre": "La sangre mezclada",
+      "descripcion": "Exposición a magia de fusión",
+      "variantes": [
+        "Poción inestable: los efectos son impredecibles",
+        "Ritual interrumpido: algo salió mal"
+      ],
+      "fuerza": "Maldición de los Híbridos",
+      "es_bendicion": false,
+      "efecto": "cambios_inestables"
+    },
+    {
+      "id": "C8",
+      "nombre": "El pacto sellado",
+      "descripcion": "Hacer un trato con una entidad oscura",
+      "variantes": [
+        "Sombra que habla: ofrece poder a cambio de años de vida",
+        "El que susurra: promete secretos por un favor futuro"
+      ],
+      "fuerza": "Maldición Demoníaca",
+      "es_bendicion": false,
+      "efecto": "poder_condicionado"
+    }
+  ]
+}

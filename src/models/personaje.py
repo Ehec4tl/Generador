@@ -3,14 +3,16 @@ from dataclasses import dataclass
 @dataclass
 class Personaje:
     nombre: str
-    edad: int
-    habilidad: str
-    fuerza: int
-    inteligencia: int
-    destreza: int
+    raza: str
+    nivel: int
+    clase: str
 
-    def hablar(self):
-        return f"Hola, soy {self.nombre}."
+    # Definición de razas posibles
+    RAZAS = ["Humano", "Elfo", "Enano", "Gigante", "Orcoide", "Hombre Bestia", "Constructo", "Mediano"]
 
-    def atacar(self):
-        return f"{self.nombre} ataca con una fuerza de {self.fuerza}!"
+    def __post_init__(self):
+        if self.raza not in self.RAZAS:
+            raise ValueError(f"Raza inválida: {self.raza}. Debe ser una de las siguientes: {', '.join(self.RAZAS)}")
+
+    def __str__(self):
+        return f"{self.nombre} es un {self.raza} de nivel {self.nivel} y clase {self.clase}."
